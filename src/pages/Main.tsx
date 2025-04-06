@@ -58,7 +58,7 @@ function Main() {
                     <li>
                       <a
                         className="text-xl px-3 hover:bg-base-200 rounded-lg hover:text-blue-300"
-                        href="/veille"
+                        href={ window.location.origin + "/react-blog/veille" }
                       >
                         Veille
                       </a>

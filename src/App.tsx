@@ -5,7 +5,8 @@ import Veille from "./pages/Veille";
 function App() {
   
   return (
-    <Router>
+    
+    <Router basename="/react-blog">
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/veille" element={<Veille />} />
