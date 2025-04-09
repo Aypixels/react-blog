@@ -14,7 +14,7 @@ function Veille() {
             <ul className="menu menu-horizontal">
               <li>
                 <a
-                  href={ window.location.origin + "/react-blog" }
+                  href="/react-blog/"
                   className="text-xl px-3 hover:bg-base-200 rounded-lg hover:text-blue-300"
                 >
                   Accueil

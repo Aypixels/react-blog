@@ -1,6 +1,9 @@
 import "./Main.css";
+import nsi from "../assets/nsi.png";
 
 function Main() {
+
+
   return (
     <>
       <html className="scroll-smooth" id="main">
@@ -14,7 +17,7 @@ function Main() {
             <ul className="menu menu-horizontal">
               <li>
                 <a
-                  href="/veille"
+                  href="/react-blog/veille"
                   className="text-xl px-3 hover:bg-base-200 rounded-lg hover:text-blue-300"
                 >
                   Veille Technologique
@@ -58,7 +61,7 @@ function Main() {
                     <li>
                       <a
                         className="text-xl px-3 hover:bg-base-200 rounded-lg hover:text-blue-300"
-                        href={ window.location.origin + "/react-blog/veille" }
+                        href="/react-blog/veille"
                       >
                         Veille
                       </a>
@@ -206,7 +209,7 @@ function Main() {
 
               <div className="card bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 transition-transform duration-500">
                 <figure className="pb-10 pt-15">
-                  <img src="/nsi.png" alt="NSI" />
+                  <img src={nsi} alt="NSI" />
                 </figure>
                 <div className="card-body">
                   <div className="card-title text-3xl text-blue-400">
@@ -305,7 +308,7 @@ function Main() {
               1<sup>ère</sup> année
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="card bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 transition-transform duration-500">
+              <div className="card glass bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 transition-transform duration-500">
                 <figure className="p-5">
                   <img
                     src="https://talks.freelancerepublik.com/wp-content/uploads/2021/05/python_logo.png"
@@ -344,7 +347,7 @@ function Main() {
                 </div>
               </div>
 
-              <div className="card bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 transition-transform duration-500">
+              <div className="card glass bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 transition-transform duration-500">
                 <figure className="pb-10 pt-20">
                   <img
                     src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
@@ -373,7 +376,7 @@ function Main() {
                 </div>
               </div>
 
-              <div className="card bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 transition-transform duration-500">
+              <div className="card glass bg-base-100 shadow-xl mt-10 max-w-100 hover:scale-105 hover:-translate-y-2 transition-transform duration-500 ">
                 <figure>
                   <img
                     src="https://sc.filehippo.net/images/t_app-icon-l/p/2f4c04f4-96d0-11e6-9830-00163ed833e7/3163796423/jre_32-logo"
